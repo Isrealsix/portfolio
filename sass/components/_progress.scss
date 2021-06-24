@@ -1,0 +1,33 @@
+.progress {
+	margin-bottom: 10rem;
+
+	&__bar {
+		width: 60rem;
+		height: 3rem;
+		background-color: #ccc;
+		margin: 1.5rem 0;
+		border-radius: 0.3rem;
+		box-shadow: 0.2rem 0.2rem 1rem var(--color-grey-light);
+		position: relative;
+	}
+
+	&__text {
+		position: absolute;
+		left: 1rem;
+		font-size: 1.5rem;
+		color: var(--color-white);
+
+		&--value {
+			font-size: 1.8rem;
+			margin: 0 0.5rem;
+			font-weight: 700;
+		}
+	}
+
+	&__percent {
+		width: 90%;
+		height: 100%;
+		border-radius: 0.3rem;
+		background-color: var(--color-primary);
+	}
+}
