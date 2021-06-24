@@ -7,10 +7,7 @@
 		),
 		url('../../images/bg.jpg') center no-repeat;
 	background-size: cover;
-	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 
 	&__heading {
 		font-size: 6rem;
@@ -22,7 +19,7 @@
 		text-transform: uppercase;
 		letter-spacing: 1rem;
 		border-bottom: 0.3rem solid rgb(233, 233, 233);
-		text-shadow: 0.2rem 0.2rem 1rem #555;
+		text-shadow: 0.2rem 0.2rem 1rem var(--color-grey-light);
 		transform: skew(-10deg);
 	}
 
@@ -48,9 +45,9 @@
 	&__btn {
 		font-size: 1.7rem;
 		font-weight: 700;
-		color: #333;
+		color: var(--color-grey-dark);
 		background-color: var(--color-white);
-		border: 0.3rem solid #333;
+		border: 0.3rem solid var(--color-grey-dark);
 		padding: 0.5rem 1rem;
 		text-transform: uppercase;
 		letter-spacing: 0.3rem;
