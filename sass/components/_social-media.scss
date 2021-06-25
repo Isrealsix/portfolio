@@ -1,0 +1,16 @@
+.social-media {
+	margin-bottom: 5rem;
+
+	&__link {
+		margin: 0 2rem;
+		padding: 0.7rem;
+		background-color: var(--color-primary);
+		border-radius: 0.5rem;
+		display: inline-block;
+
+		& i {
+			font-size: 3rem;
+			color: var(--color-white);
+		}
+	}
+}

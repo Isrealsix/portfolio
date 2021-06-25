@@ -189,6 +189,18 @@ html {
     letter-spacing: 1rem;
     cursor: pointer; }
 
+.social-media {
+  margin-bottom: 5rem; }
+  .social-media__link {
+    margin: 0 2rem;
+    padding: 0.7rem;
+    background-color: var(--color-primary);
+    border-radius: 0.5rem;
+    display: inline-block; }
+    .social-media__link i {
+      font-size: 3rem;
+      color: var(--color-white); }
+
 .section-1 {
   width: 100%;
   height: 100vh;
@@ -261,4 +273,17 @@ html {
   .section-4__heading {
     color: var(--color-white);
     text-shadow: none;
-    border-color: var(--color-white); }
+    border-color: var(--color-white);
+    margin-bottom: 5rem; }
+
+.section-5 {
+  width: 100%;
+  height: 30vh;
+  background-color: #222;
+  flex-direction: column; }
+  .section-5 .copyright {
+    color: #aaa;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center; }
