@@ -81,3 +81,20 @@
 		@extend %section__heading-placeholder;
 	}
 }
+
+.section-4 {
+	width: 100%;
+	height: 70vh;
+	background-color: var(--color-grey-dark);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+
+	&__heading {
+		color: var(--color-white);
+		text-shadow: none;
+		border-color: var(--color-white);
+		@extend %section__heading-placeholder;
+	}
+}

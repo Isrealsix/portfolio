@@ -10,3 +10,13 @@
 	margin-bottom: 15rem;
 	text-shadow: 0.2rem 0.2rem 0.5rem var(--color-grey-light);
 }
+
+%input-textarea-placeholder {
+	width: 100%;
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	background-color: #eef;
+	font-size: 1.5rem;
+	border: 0.2rem solid var(--color-primary);
+	color: var(--color-grey-light);
+}
