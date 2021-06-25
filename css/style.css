@@ -4,6 +4,16 @@
   --color-grey-light: #555;
   --color-grey-dark: #333; }
 
+.section-2__heading, .section-3__heading {
+  font-size: 5rem;
+  color: var(--color-grey-dark);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-weight: inherit;
+  border-bottom: 0.3rem solid var(--color-grey-light);
+  margin-bottom: 15rem;
+  text-shadow: 0.2rem 0.2rem 0.5rem var(--color-grey-light); }
+
 * {
   margin: 0;
   padding: 0;
@@ -101,6 +111,60 @@ html {
     transform: skew(-10deg);
     box-shadow: 0.2rem 0.2rem 0.5rem var(--color-grey-light); }
 
+.project {
+  width: 80%;
+  flex-wrap: wrap; }
+  .project__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: var(--color-white);
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.5s; }
+    .project__box:hover {
+      box-shadow: 1rem 1rem 1rem #777; }
+  .project__text {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: -10rem;
+    transition: top 0.3s;
+    z-index: 10; }
+  .project__box:hover .project__text {
+    top: 5rem;
+    transition: top 0.3s 0.3s; }
+  .project__name {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--color-grey-dark); }
+  .project__technologies {
+    font-size: 1.8rem;
+    color: var(--color-primary); }
+  .project__image {
+    width: 40rem;
+    transition: opacity 0.3s; }
+  .project__box:hover .project__image {
+    opacity: 0.2; }
+  .project__link {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--color-grey-dark);
+    border: 0.3rem solid var(--color-primary);
+    padding: 0 1rem;
+    background-color: var(--color-white);
+    position: absolute;
+    bottom: -5rem;
+    transition: bottom 0.3s; }
+  .project__box:hover .project__link {
+    bottom: 5rem;
+    transition: bottom 0.3s 0.3s; }
+
 .section-1 {
   width: 100%;
   height: 100vh;
@@ -152,12 +216,12 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .section-2__heading {
-    font-size: 5rem;
-    color: var(--color-grey-dark);
-    letter-spacing: 0.5rem;
-    text-transform: uppercase;
-    font-weight: inherit;
-    border-bottom: 0.3rem solid var(--color-grey-light);
-    margin-bottom: 15rem;
-    text-shadow: 0.2rem 0.2rem 0.5rem var(--color-grey-light); }
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #eef;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }

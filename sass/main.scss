@@ -1,6 +1,7 @@
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
+@import 'abstracts/extends';
 
 @import 'base/base';
 @import 'base/animations';
@@ -10,5 +11,6 @@
 @import 'components/navbar';
 @import 'components/progress';
 @import 'components/service';
+@import 'components/project';
 
 @import 'pages/home';
