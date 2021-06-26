@@ -25,9 +25,10 @@
 	}
 
 	&__percent {
-		width: 90%;
+		width: 0;
 		height: 100%;
 		border-radius: 0.3rem;
 		background-color: var(--color-primary);
+		transition: width 0.5s 0.5s ease-in-out;
 	}
 }

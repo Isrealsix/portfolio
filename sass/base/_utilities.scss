@@ -3,3 +3,9 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 300;
+}
