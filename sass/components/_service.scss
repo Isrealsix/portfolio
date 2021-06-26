@@ -5,8 +5,17 @@
 	align-items: center;
 	justify-content: space-evenly;
 
+	@include respond(laptop) {
+		height: auto;
+		flex-wrap: wrap;
+	}
+
 	&__box {
 		text-align: center;
+
+		@include respond(laptop) {
+			margin: 3rem 2rem;
+		}
 
 		&:first-child,
 		&:last-child {

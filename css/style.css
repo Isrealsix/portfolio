@@ -37,6 +37,12 @@ html {
   font-weight: 400;
   font-family: 'Jost', sans-serif;
   scroll-behavior: smooth; }
+  @media only screen and (max-width: 31.25em) {
+    html {
+      font-size: 55%; } }
+  @media only screen and (max-width: 28.125em) {
+    html {
+      font-size: 45%; } }
 
 .center {
   display: flex;
@@ -63,6 +69,13 @@ html {
     letter-spacing: 0.3rem;
     position: relative;
     transition: color 0.3s; }
+    @media only screen and (max-width: 37.5em) {
+      .navbar__link {
+        margin: 0 2rem;
+        font-size: 1.5rem; } }
+    @media only screen and (max-width: 28.125em) {
+      .navbar__link {
+        margin: 0 1.5rem; } }
     .navbar__link:hover {
       color: var(--color-white); }
     .navbar__link::before {
@@ -93,6 +106,15 @@ html {
     border-radius: 0.3rem;
     box-shadow: 0.2rem 0.2rem 1rem var(--color-grey-light);
     position: relative; }
+    @media only screen and (max-width: 50em) {
+      .progress__bar {
+        width: 50rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .progress__bar {
+        width: 45rem; } }
+    @media only screen and (max-width: 28.125em) {
+      .progress__bar {
+        width: 40rem; } }
   .progress__text {
     position: absolute;
     left: 1rem;
@@ -115,8 +137,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
+  @media only screen and (max-width: 75em) {
+    .service {
+      height: auto;
+      flex-wrap: wrap; } }
   .service__box {
     text-align: center; }
+    @media only screen and (max-width: 75em) {
+      .service__box {
+        margin: 3rem 2rem; } }
     .service__box:first-child, .service__box:last-child {
       align-self: flex-start; }
   .service i {
@@ -170,6 +199,9 @@ html {
   .project__image {
     width: 40rem;
     transition: opacity 0.3s; }
+    @media only screen and (max-width: 37.5em) {
+      .project__image {
+        width: 100%; } }
   .project__box:hover .project__image {
     opacity: 0.2; }
   .project__link {
@@ -190,6 +222,9 @@ html {
 .contact-form {
   width: 50rem;
   flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .contact-form {
+      width: 40rem; } }
   .contact-form textarea {
     height: 10rem;
     max-height: 15rem;
@@ -231,6 +266,15 @@ html {
     border-bottom: 0.3rem solid #e9e9e9;
     text-shadow: 0.2rem 0.2rem 1rem var(--color-grey-light);
     transform: skew(-10deg); }
+    @media only screen and (max-width: 50em) {
+      .section-1__heading {
+        font-size: 4rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .section-1__heading {
+        font-size: 3rem; } }
+    @media only screen and (max-width: 28.125em) {
+      .section-1__heading {
+        font-size: 2.5rem; } }
   .section-1__person-img {
     width: 25rem;
     height: 25rem;
@@ -264,6 +308,15 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    .section-2 {
+      padding: 10rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-2__heading {
+      margin-bottom: 10rem; } }
+  @media only screen and (max-width: 28.125em) {
+    .section-2__heading {
+      text-align: center; } }
 
 .section-3 {
   width: 100%;
@@ -282,6 +335,9 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly; }
+  @media only screen and (max-width: 75em) {
+    .section-4 {
+      height: 80vh; } }
   .section-4__heading {
     color: var(--color-white);
     text-shadow: none;
@@ -299,3 +355,6 @@ html {
     letter-spacing: 0.2rem;
     font-weight: 300;
     text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .section-5 .copyright {
+        width: 70%; } }

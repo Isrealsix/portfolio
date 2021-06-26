@@ -18,6 +18,15 @@
 		position: relative;
 		transition: color 0.3s;
 
+		@include respond(phone-port) {
+			margin: 0 2rem;
+			font-size: 1.5rem;
+		}
+
+		@include respond(sm-screen) {
+			margin: 0 1.5rem;
+		}
+
 		&:hover {
 			color: var(--color-white);
 		}

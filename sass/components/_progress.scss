@@ -9,6 +9,18 @@
 		border-radius: 0.3rem;
 		box-shadow: 0.2rem 0.2rem 1rem var(--color-grey-light);
 		position: relative;
+
+		@include respond(phone-land) {
+			width: 50rem;
+		}
+
+		@include respond(phone-port) {
+			width: 45rem;
+		}
+
+		@include respond(sm-screen) {
+			width: 40rem;
+		}
 	}
 
 	&__text {

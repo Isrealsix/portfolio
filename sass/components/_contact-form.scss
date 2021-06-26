@@ -2,6 +2,10 @@
 	width: 50rem;
 	flex-direction: column;
 
+	@include respond(phone-port) {
+		width: 40rem;
+	}
+
 	& input,
 	& textarea {
 		@extend %input-textarea-placeholder;

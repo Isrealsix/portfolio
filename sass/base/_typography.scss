@@ -3,4 +3,12 @@ html {
 	font-weight: 400;
 	font-family: 'Jost', sans-serif;
 	scroll-behavior: smooth;
+
+	@include respond(iphone) {
+		font-size: 55%;
+	}
+
+	@include respond(sm-screen) {
+		font-size: 45%;
+	}
 }
